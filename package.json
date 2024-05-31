@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "concurrently \"next dev\" \"npm run fastapi-dev\"",
-    "fastapi-dev": "uvicorn src.app.api.index:app --reload --port 8000",
+    "fastapi-dev": "uvicorn api.index:app --reload --port 8000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
