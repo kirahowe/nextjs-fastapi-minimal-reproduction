@@ -7,7 +7,7 @@ const nextConfig = {
             destination:
                 process.env.NODE_ENV === "development"
                 ? "http://localhost:8000/api/test2"
-                : "/api/test2"          }
+                : "/api/test2"}
         ]
       }
 };
